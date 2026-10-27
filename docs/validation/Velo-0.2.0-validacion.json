@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "apkSha256": "394bba53544c869e852a99ff3ba8442cb7c9fa6a1fbe44f566cd564eb546c460",
+  "installedOn": "OPPO CPH2913 / Android 17 API 37",
+  "historyRetention": "permanent",
+  "historyEntryCap": null,
+  "unitTestsPassed": 63,
+  "historyDeviceTestsPassed": 11,
+  "newCallsGenerated": 0,
+  "lintErrors": 0,
+  "lintWarnings": 22,
+  "migration": {
+    "before": {
+      "version": "0.1.1",
+      "retentionDays": 90,
+      "protectionEnabled": true,
+      "configurationExceptRetentionSha256": "856e28044df2a2053b3c164700816b0ca01f4b6c33d9e2429368da972973e86b",
+      "storage": "SharedPreferences",
+      "eventCount": 8,
+      "eventsSha256": "46c0250b9ff9356b010e992960b57027214e30b6ed5a972b9dc7028088c0606a",
+      "eventIdsSha256": "a198e6c89a0083347064959f42f7ee51b875192ce987847e2b1615c5b86fbff7",
+      "legacyKeyPresent": true
+    },
+    "after": {
+      "version": "0.2.0",
+      "retentionDays": 0,
+      "protectionEnabled": true,
+      "configurationExceptRetentionSha256": "856e28044df2a2053b3c164700816b0ca01f4b6c33d9e2429368da972973e86b",
+      "storage": "SQLite",
+      "eventCount": 8,
+      "eventsSha256": "46c0250b9ff9356b010e992960b57027214e30b6ed5a972b9dc7028088c0606a",
+      "eventIdsSha256": "a198e6c89a0083347064959f42f7ee51b875192ce987847e2b1615c5b86fbff7",
+      "legacyKeyPresent": false
+    },
+    "allEventFieldsPreserved": true,
+    "configurationExceptRetentionPreserved": true
+  },
+  "realHistoryUi": {
+    "registered": 8,
+    "filtered": 6,
+    "percentage": 75,
+    "privateFiltered": 2
+  },
+  "callScreeningRole": "com.alberto.velo",
+  "dialerRole": "com.google.android.dialer",
+  "temporaryTestPackagesRemoved": true,
+  "statisticsScope": "Saved calls delivered to Velo, not the full SIM call log",
+  "historyCsvExport": "All entries, streamed, independent of visible filters",
+  "goalOriginalCarrierUnknownVisibleTestStillPending": true
+}

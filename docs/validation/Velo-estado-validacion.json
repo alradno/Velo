@@ -1,0 +1,148 @@
+{
+  "version": "0.4.2",
+  "apkSha256": "7d88b9442605d6310c26e9fde9f6bc9e956c5d919068449c658975e9d235138c",
+  "installedOn": "OPPO CPH2913 / Android 17 API 37",
+  "source": "Velo-src",
+  "unitTests": {
+    "passed": 83,
+    "failed": 0,
+    "testedVersion": "0.4.1"
+  },
+  "localTelecomScenarios": {
+    "maximumEvaluationMs": 18,
+    "passed": 14,
+    "failed": 0,
+    "scope": "Synthetic incoming calls on the physical OPPO; not operator-originated calls",
+    "testedVersion": "0.1.1"
+  },
+  "callScreeningRole": "com.alberto.velo",
+  "dialerRole": "com.google.android.dialer",
+  "ringerMode": "vibrate",
+  "temporaryValidationPackagesRemoved": true,
+  "productionApkHasOutgoingCallPermission": false,
+  "productionApkHasTestConnectionService": false,
+  "pending": [
+    "Operator-originated visible number outside contacts",
+    "Private filtering through SIM1 not yet separately tested",
+    "Carrier voicemail behavior beyond the observed unavailable indication"
+  ],
+  "goalComplete": false,
+  "contactsPermissionGranted": true,
+  "notificationsPermissionGranted": true,
+  "activeCallsAtEnd": 0,
+  "simCardsMoved": false,
+  "carrierAttempt": {
+    "date": "2026-10-26",
+    "from": "OPPO SIM1",
+    "to": "OPPO SIM2",
+    "startedLocal": "20:51:48",
+    "endedLocal": "20:51:57",
+    "outgoingTelecomId": "TC@46",
+    "newIncomingTelecomCallObserved": false,
+    "result": "Inconclusive: no incoming call reached the device during this attempt",
+    "hangup": "Controlled local disconnect",
+    "notProofOfCarrierBlocking": true
+  },
+  "carrierValidation": {
+    "date": "2026-10-26",
+    "timezone": "Europe/Madrid",
+    "scope": "Exact-number block rule for an existing contact",
+    "realIncomingRejected": 4,
+    "sim1Rejected": 2,
+    "sim2Rejected": 2,
+    "telecomIds": [
+      "TC@48",
+      "TC@49",
+      "TC@50",
+      "TC@51"
+    ],
+    "screeningApp": "com.alberto.velo",
+    "systemDisconnect": "REJECTED / INCOMING_REJECTED",
+    "systemFilteringMs": [
+      162,
+      118,
+      118,
+      57
+    ],
+    "userReportedNoRinging": true,
+    "userReportedNotification": true,
+    "userReportedCallerHeardUnavailable": true,
+    "privateAndUnknownNotYetCarrierVerified": true,
+    "testedVersion": "0.1.1"
+  },
+  "protectionEnabledAtPostTestInspection": true,
+  "protectionChangedByAgentAfterTest": false,
+  "privateCarrierValidation": {
+    "date": "2026-10-26",
+    "timezone": "Europe/Madrid",
+    "sim": "SIM2",
+    "presentation": "Restricted",
+    "callerNumber": null,
+    "attempts": [
+      {
+        "telecomId": "TC@53",
+        "time": "21:10:20",
+        "action": "REJECT",
+        "systemFilteringMs": 50
+      },
+      {
+        "telecomId": "TC@54",
+        "time": "21:10:57",
+        "action": "ALLOW",
+        "veloReason": "Protección desactivada"
+      },
+      {
+        "telecomId": "TC@55",
+        "time": "21:11:23",
+        "action": "REJECT",
+        "veloReason": "Número privado",
+        "veloEvaluationMs": 5,
+        "systemFilteringMs": 26
+      }
+    ],
+    "systemRejectedTwice": true,
+    "verifiedFrom": "Live Velo history and physical OPPO Telecom dump",
+    "testedVersion": "0.1.1"
+  },
+  "historyUpgrade": {
+    "retentionDays": 0,
+    "entryCap": null,
+    "recordsPreserved": 8,
+    "unitTestsPassed": 63,
+    "isolatedDeviceTestsPassed": 11,
+    "validationFile": "Velo-0.2.0-validacion.json"
+  },
+  "performanceValidation": {
+    "file": "Velo-0.3.0-rendimiento.json",
+    "unitTests": 71,
+    "deviceFunctionalTests": 29,
+    "largestHistoryRows": 1000000,
+    "largestRuleCount": 5000,
+    "releaseMinified": true,
+    "originalUserEventsPreserved": 8
+  },
+  "uiValidation": {
+    "file": "Velo-0.4.0-validacion.json",
+    "customControlFamily": true,
+    "customVectorIcons": true,
+    "homeCompositionPreserved": true,
+    "userConfigurationAndHistoryPreserved": true
+  },
+  "setupValidation": {
+    "file": "Velo-0.4.1-validacion.json",
+    "firstLaunchWizard": true,
+    "foregroundRecheck": true,
+    "persistentMissingSettingsBanner": true,
+    "batteryExempt": true,
+    "unusedAppRestrictionsDisabled": true,
+    "colorOsExtraSettings": "Manual review recorded; not automatically verifiable",
+    "preservedEvents": 8
+  },
+  "settingsTextRemoval": {
+    "version": "0.4.2",
+    "text": "Velo funciona como filtro...",
+    "removed": true,
+    "verified": "Release build and live settings UI on OPPO",
+    "scope": "UI text only; no filtering or permission behavior changed"
+  }
+}

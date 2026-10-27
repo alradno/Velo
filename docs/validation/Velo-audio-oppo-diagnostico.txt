@@ -1,0 +1,12 @@
+probe_started_uid=2000
+uid=2000
+android.permission.CAPTURE_AUDIO_OUTPUT=0
+android.permission.CALL_AUDIO_INTERCEPTION=0
+audioMode=0
+method.isPstnCallAudioInterceptable=true
+query.isPstnCallAudioInterceptable=true
+method.getCallUplinkInjectionAudioTrack=true
+method.getCallDownlinkExtractionAudioRecord=true
+telephonyPort.id=13,source=false,sink=true
+telephonyPort.id=21,source=true,sink=false
+finished=no_audio_recording_no_playback_no_calls

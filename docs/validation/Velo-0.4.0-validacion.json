@@ -1,0 +1,36 @@
+{
+  "version": "0.4.0",
+  "apkSha256": "ca997529aa2c9e757446096e6fc745ff967137d4e30b1998823a1e690ee4ffac",
+  "apkBytes": 4375333,
+  "installedOn": "OPPO CPH2913 / Android 17 API 37",
+  "unitTestsPassed": 71,
+  "deviceFunctionalTestsPassed": 29,
+  "lint": {
+    "errors": 0,
+    "warnings": 26
+  },
+  "coreAndStorageIdenticalTo030": true,
+  "callsGenerated": 0,
+  "userState": {
+    "retentionDays": 0,
+    "protectionEnabled": true,
+    "eventCount": 8,
+    "configurationSha256": "856e28044df2a2053b3c164700816b0ca01f4b6c33d9e2429368da972973e86b",
+    "eventsSha256": "46c0250b9ff9356b010e992960b57027214e30b6ed5a972b9dc7028088c0606a",
+    "preserved": true
+  },
+  "uiChecks": [
+    "Rules navigation and modes",
+    "Full-screen editor",
+    "Keyboard and fixed footer",
+    "Prefix preview",
+    "Profile scope validation",
+    "Cancel draft without saved changes",
+    "Schedule dialog",
+    "Custom time input with keyboard",
+    "Custom calendar",
+    "Settings custom controls",
+    "History and statistics"
+  ],
+  "scopeLimit": "Physical visual review in current dark theme at 100% app text scale; no exhaustive accessibility or device-matrix audit."
+}

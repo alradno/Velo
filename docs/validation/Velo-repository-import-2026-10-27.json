@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "version": "0.4.2",
+  "productionSourceFilesCopiedUnchanged": 32,
+  "unitTests": {
+    "passed": 83,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "command": "gradlew :app:testDebugUnitTest"
+  },
+  "releaseApk": {
+    "name": "Velo-0.4.2.apk",
+    "sha256": "7d88b9442605d6310c26e9fde9f6bc9e956c5d919068449c658975e9d235138c",
+    "reusedExistingValidatedArtifact": true,
+    "rebuiltForRepositoryUpload": false
+  },
+  "deviceActionsDuringRepositoryUpload": 0,
+  "scope": "Initial repository import; historical device and audio evidence retains its original validation scope."
+}

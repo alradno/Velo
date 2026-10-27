@@ -1,0 +1,60 @@
+{
+  "version": "0.4.1",
+  "apkSha256": "c414af9345089b2693a6ae2935a0ac517cb2920acd5b876ba0dcc1399c3ae330",
+  "apkBytes": 4413789,
+  "installedOn": "OPPO CPH2913 / Android 17 API 37",
+  "unitTestsPassed": 83,
+  "deviceFunctionalTestsPassed": 29,
+  "lint": {
+    "errors": 0,
+    "warnings": 31
+  },
+  "callsGenerated": 0,
+  "checks": [
+    "CALL_SCREENING role",
+    "READ_CONTACTS",
+    "POST_NOTIFICATIONS and app notification switch and channel",
+    "Battery optimization exemption",
+    "Android background restriction",
+    "Unused-app permission auto-reset/hibernation",
+    "ColorOS extra settings: explicitly manual review"
+  ],
+  "oppoUiValidation": [
+    "First introduction shown",
+    "Defer keeps warning banner",
+    "Warning returns on genuine foreground reopen",
+    "Wizard opens unused-app restriction settings",
+    "Disabled Manage unused apps; verified from Android on return",
+    "Battery exemption already enabled",
+    "ColorOS background activity visibly allowed",
+    "Manual OEM review recorded with unverified label",
+    "No warning after all verifiable checks pass",
+    "Corrected three-slider Rules icon visually checked"
+  ],
+  "freshInstallValidation": {
+    "target": "emulator-5560 / API 34",
+    "isolatedFromOppo": true,
+    "steps": [
+      "Role chooser opened and granted",
+      "Contacts denied once; no request loop",
+      "Notifications already granted by role; not redundantly requested",
+      "Battery exemption dialog opened and granted",
+      "Unused app management disabled in settings",
+      "Explicit retry requested contacts again and granted"
+    ],
+    "notCarrierCallEvidence": true
+  },
+  "userState": {
+    "retentionDays": 0,
+    "protectionEnabled": true,
+    "eventCount": 8,
+    "configurationSha256": "856e28044df2a2053b3c164700816b0ca01f4b6c33d9e2429368da972973e86b",
+    "eventsSha256": "46c0250b9ff9356b010e992960b57027214e30b6ed5a972b9dc7028088c0606a",
+    "preserved": true
+  },
+  "limitations": [
+    "ColorOS proprietary auto-launch settings do not expose a supported public automatic check; manual review stays labeled",
+    "Fresh permission-denial sequence checked on API 34 emulator; physical OPPO kept existing role/contacts grants intact",
+    "Original carrier validation scope remains unchanged"
+  ]
+}

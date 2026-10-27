@@ -1,0 +1,212 @@
+[
+  {
+    "name": "desconocido-visible",
+    "pass": true,
+    "event": {
+      "id": "89f1c014-c010-4971-8093-568cd77ce9d8",
+      "time": 1793043683289,
+      "number": "+999000101",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "No está en contactos",
+      "source": "Filtrado",
+      "elapsedMs": 18
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"efb20632-c52b-4146-90b2-bf9d8c000434\",\"state\":\"rejected\",\"time\":1793043683297}}\"\n"
+  },
+  {
+    "name": "privado",
+    "pass": true,
+    "event": {
+      "id": "9b2d580f-8144-4000-ad5d-13ef15950df1",
+      "time": 1793043683563,
+      "number": "",
+      "identity": "PRIVATE",
+      "action": "REJECT",
+      "reason": "Número privado",
+      "source": "Filtrado",
+      "elapsedMs": 3
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"a2b5df7b-4d60-402a-8458-e34c361d5726\",\"state\":\"rejected\",\"time\":1793043683572}}\"\n"
+  },
+  {
+    "name": "identidad-no-disponible",
+    "pass": true,
+    "event": {
+      "id": "91eb7a85-48ee-4a17-9b14-1c3b3b942d98",
+      "time": 1793043683838,
+      "number": "",
+      "identity": "UNAVAILABLE",
+      "action": "REJECT",
+      "reason": "Identidad no disponible",
+      "source": "Filtrado",
+      "elapsedMs": 2
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"cbfd1d47-00d7-4cd3-b1ef-854018bdb3c4\",\"state\":\"rejected\",\"time\":1793043683846}}\"\n"
+  },
+  {
+    "name": "bloqueo-total",
+    "pass": true,
+    "event": {
+      "id": "c37a11b7-88b4-407a-974b-40ee09c82b10",
+      "time": 1793043684158,
+      "number": "+999000104",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "Todas las llamadas",
+      "source": "Filtrado",
+      "elapsedMs": 13
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"6d66e64f-51a6-425d-96bc-e4e7fb4d002e\",\"state\":\"rejected\",\"time\":1793043684170}}\"\n"
+  },
+  {
+    "name": "numero-exacto",
+    "pass": true,
+    "event": {
+      "id": "1305c5d7-759f-45e9-980e-e215ca646827",
+      "time": 1793043684488,
+      "number": "+999000105",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "Regla · Velo · prueba local",
+      "source": "Filtrado",
+      "elapsedMs": 10
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"f655f5e8-5dfb-4a83-8a87-b8133533529b\",\"state\":\"rejected\",\"time\":1793043684498}}\"\n"
+  },
+  {
+    "name": "prefijo",
+    "pass": true,
+    "event": {
+      "id": "9589c1b1-cd73-4ee1-9feb-49751535e798",
+      "time": 1793043684799,
+      "number": "+999000106",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "Regla · Velo · prueba local",
+      "source": "Filtrado",
+      "elapsedMs": 14
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"d2bcf093-c40a-4d6a-8049-279e1e19d118\",\"state\":\"rejected\",\"time\":1793043684807}}\"\n"
+  },
+  {
+    "name": "patron-con-ceros",
+    "pass": true,
+    "event": {
+      "id": "5872f5ee-e8b7-468a-a389-8261dc50227f",
+      "time": 1793043685120,
+      "number": "+999001207",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "Regla · Velo · prueba local",
+      "source": "Filtrado",
+      "elapsedMs": 13
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"33b6a235-1369-4dd5-8517-a34824e4fbea\",\"state\":\"rejected\",\"time\":1793043685128}}\"\n"
+  },
+  {
+    "name": "permitido-sobre-bloqueo-total",
+    "pass": true,
+    "event": {
+      "id": "bd8ff6cf-f82e-4fc4-9f9e-32f1351788ba",
+      "time": 1793043685452,
+      "number": "+999000108",
+      "identity": "VISIBLE",
+      "action": "ALLOW",
+      "reason": "Lista de permitidos · Velo · prueba local",
+      "source": "Filtrado",
+      "elapsedMs": 13
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"2f32d495-07bc-4bb3-a0d1-d58a99d94193\",\"state\":\"ringing\",\"time\":1793043685404}}\"\n"
+  },
+  {
+    "name": "silenciar-sin-colgar",
+    "pass": true,
+    "event": {
+      "id": "c5a47312-263a-4852-9cec-ef2b67ad0cbd",
+      "time": 1793043686151,
+      "number": "+999000109",
+      "identity": "VISIBLE",
+      "action": "SILENCE",
+      "reason": "No está en contactos",
+      "source": "Filtrado",
+      "elapsedMs": 9
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"a4fada0c-54fb-47b2-8667-1140cb739e10\",\"state\":\"ringing\",\"time\":1793043686007}}\"\n"
+  },
+  {
+    "name": "ignorar",
+    "pass": true,
+    "event": {
+      "id": "f99c6256-966d-48c5-9e28-2dea7f9dc0c3",
+      "time": 1793043686875,
+      "number": "+999000110",
+      "identity": "VISIBLE",
+      "action": "IGNORE",
+      "reason": "No está en contactos",
+      "source": "Filtrado",
+      "elapsedMs": 10
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"838318e9-75ad-4e86-9196-5be228a735b7\",\"state\":\"ringing\",\"time\":1793043686804}}\"\n"
+  },
+  {
+    "name": "fuera-de-horario",
+    "pass": true,
+    "event": {
+      "id": "94445f69-d932-4272-8461-3e037c2f5a04",
+      "time": 1793043687164,
+      "number": "+999000111",
+      "identity": "VISIBLE",
+      "action": "ALLOW",
+      "reason": "Fuera del horario",
+      "source": "Filtrado",
+      "elapsedMs": 11
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"486eda05-c3bf-4c90-885e-632a38a69a22\",\"state\":\"ringing\",\"time\":1793043687133}}\"\n"
+  },
+  {
+    "name": "carpeta-pausada",
+    "pass": true,
+    "event": {
+      "id": "db4dbff6-8b6d-4a75-80cd-9902b7ac2cd2",
+      "time": 1793043687641,
+      "number": "+999000112",
+      "identity": "VISIBLE",
+      "action": "ALLOW",
+      "reason": "Sin coincidencias",
+      "source": "Filtrado",
+      "elapsedMs": 9
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"7fbadcaa-c80e-45f3-85e5-1a90844195cf\",\"state\":\"ringing\",\"time\":1793043687599}}\"\n"
+  },
+  {
+    "name": "repetida-primer-intento",
+    "pass": true,
+    "event": {
+      "id": "d6cbe877-bc81-4163-b886-a09eb2c7c6fc",
+      "time": 1793043688146,
+      "number": "+999000113",
+      "identity": "VISIBLE",
+      "action": "REJECT",
+      "reason": "No está en contactos",
+      "source": "Filtrado",
+      "elapsedMs": 6
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":0,\"result\":{\"token\":\"3313604b-5c03-4ef5-a17e-6e04897b989a\",\"state\":\"rejected\",\"time\":1793043688151}}\"\n"
+  },
+  {
+    "name": "repetida-segundo-intento",
+    "pass": true,
+    "event": {
+      "id": "43707a2d-312c-4a32-b7a0-c5dcc6a81367",
+      "time": 1793043688430,
+      "number": "+999000113",
+      "identity": "VISIBLE",
+      "action": "ALLOW",
+      "reason": "Excepción por llamada repetida",
+      "source": "Filtrado",
+      "elapsedMs": 13
+    },
+    "fixture": "Broadcasting: Intent { flg=0x400000 cmp=com.alberto.velo.qa/.Control (has extras) }\nBroadcast completed: result=0, data=\"{\"live\":1,\"result\":{\"token\":\"55d9772c-d37a-4a51-bda3-28eff35df9ca\",\"state\":\"ringing\",\"time\":1793043688387}}\"\n"
+  }
+]

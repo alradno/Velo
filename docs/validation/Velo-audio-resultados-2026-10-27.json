@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Europe/Madrid",
+  "device": {
+    "model": "CPH2913",
+    "android": 17,
+    "api": 37
+  },
+  "scope": "Synthetic local voice, recognition and translation; idle telephony guards only",
+  "localSpeechSupport": {
+    "mode": "support",
+    "package": "com.alberto.velo.audiolab",
+    "uid": 10557,
+    "internet_permission": false,
+    "microphone_permission": false,
+    "microphone_opened": false,
+    "on_device_recognizer_available": true,
+    "default_recognizer_available": true,
+    "support_provider": "on_device",
+    "installed_local_languages": [
+      "fr-FR"
+    ],
+    "pending_local_languages": [],
+    "supported_local_languages": [
+      "en-US",
+      "de-DE",
+      "es-ES",
+      "it-IT",
+      "en-AU",
+      "en-GB",
+      "en-IE",
+      "en-SG",
+      "ja-JP",
+      "de-AT",
+      "de-BE",
+      "de-CH",
+      "en-CA",
+      "en-IN",
+      "es-US",
+      "fr-BE",
+      "fr-CA",
+      "fr-CH",
+      "hi-IN",
+      "id-ID",
+      "it-CH",
+      "ko-KR",
+      "pt-BR",
+      "th-TH",
+      "cmn-Hans-CN",
+      "cmn-Hant-TW",
+      "pl-PL",
+      "ru-RU",
+      "tr-TR",
+      "vi-VN"
+    ],
+    "support_callback_received": true,
+    "completed": true
+  },
+  "speechModelPreparation": {
+    "mode": "prepare-speech",
+    "package": "com.alberto.velo.audiolab",
+    "uid": 10557,
+    "internet_permission": true,
+    "microphone_permission": false,
+    "microphone_opened": false,
+    "model_download_progress": 100,
+    "french_model_download": "success",
+    "download_callback_received": true,
+    "completed": true
+  },
+  "offlineTextTranslation": {
+    "mode": "translation",
+    "package": "com.alberto.velo.audiolab",
+    "uid": 10557,
+    "internet_permission": false,
+    "microphone_permission": false,
+    "microphone_opened": false,
+    "download_attempted": false,
+    "translations": [
+      {
+        "fr": "Bonjour, je m'appelle Marie. Je vous appelle pour confirmer notre rendez-vous demain à dix heures.",
+        "es": "Hola, mi nombre es Marie. Te llamo para confirmar nuestra cita mañana a las diez en punto.",
+        "elapsed_ms": 201
+      },
+      {
+        "fr": "Je suis le livreur. Je suis devant votre porte.",
+        "es": "Soy el repartidor. Estoy frente a tu puerta.",
+        "elapsed_ms": 26
+      },
+      {
+        "fr": "Pouvez-vous me rappeler cet après-midi ?",
+        "es": "¿Puedes recordar esta tarde?",
+        "elapsed_ms": 30
+      }
+    ],
+    "completed": true
+  },
+  "syntheticVoiceRecognitionTranslation": {
+    "mode": "speech-file",
+    "package": "com.alberto.velo.audiolab",
+    "uid": 10557,
+    "internet_permission": false,
+    "microphone_permission": false,
+    "microphone_opened": false,
+    "installed_offline_french_voices": 6,
+    "tts_voice": "fr-FR-language",
+    "tts_voice_requires_network": false,
+    "synthetic_source_text": "Bonjour. Je m'appelle Marie. Je suis le livreur. Je suis devant votre porte.",
+    "tts_callback_received": true,
+    "tts_sample_rate": 24000,
+    "synthetic_pcm_bytes": 179668,
+    "file_recognition_callback_received": true,
+    "recognized_segments": [
+      "bonjour Je m'appelle Marie je suis le livreur je suis devant votre porte"
+    ],
+    "speech_test_elapsed_ms": 5849,
+    "speech_input": "synthetic_pcm_pipe_only",
+    "recognized_translation_es": "Hola, mi nombre es Marie, soy el hombre de entrega, estoy frente a tu puerta.",
+    "recognized_translation_ms": 181,
+    "synthetic_file_deleted": true,
+    "completed": true
+  },
+  "idleGuardRaw": "attribution_package=com.android.shell\r\nprobe=call_audio_v1,uid=2000\r\ninitial_mode=0\r\ncall_control=none,downlink_storage=none\r\nidle_guard.getCallDownlinkExtractionAudioRecord=java.lang.IllegalStateException:  not available in mode MODE_NORMAL\r\nidle_guard.getCallUplinkInjectionAudioTrack=java.lang.IllegalStateException:  not available in mode MODE_NORMAL\r\nidle_result=guards_passed_no_audio_started\r\nfinal_mode=0\r\nprobe_finished=true\r\n",
+  "dryWaitRaw": "attribution_package=com.android.shell\r\nprobe=call_audio_v1,uid=2000\r\ninitial_mode=0\r\ncall_control=none,downlink_storage=none\r\narmed_wait_seconds=2\r\nresult=no_active_call_timeout,no_audio_started=true\r\nfinal_mode=0\r\nprobe_finished=true\r\n",
+  "limitations": {
+    "realSimDownlinkValidated": false,
+    "realSimUplinkValidated": false,
+    "preRingAssistantValidated": false,
+    "callControlValidated": false,
+    "shizukuValidated": false,
+    "deviceGlobalConnectivityDisabled": false,
+    "otherSystemAppTrafficAudited": false,
+    "broadTranslationQualityValidated": false,
+    "initialShellSpeechAvailabilitySupersededByAppProbe": true
+  },
+  "preservedState": {
+    "veloVersion": "0.4.2",
+    "veloVersionCode": 7,
+    "callScreeningRoleHolder": "com.alberto.velo",
+    "productionCodeModified": false,
+    "productionAppUpdated": false,
+    "productionSettingsModified": false,
+    "testCalls": 0,
+    "microphoneUsed": false,
+    "temporaryCallProbeFilesRemoved": true,
+    "temporarySyntheticVoiceDeleted": true,
+    "backgroundProbeProcessesRemaining": false,
+    "offlineLabRetained": true,
+    "preparedModelsRetained": true
+  },
+  "artifacts": {
+    "offlineApk": "Velo-audio-lab-0.1-offline.apk",
+    "offlineApkSha256": "5B4022324F7B324801D15052E2CA353FF4E157F194BCBEBF55FE0F5793DB1497",
+    "sources": "Velo-audio-lab-fuentes.zip",
+    "sourcesSha256": "040AD973C2598005E781BC744ED28873F3DC58393D787B40E3E4B54F54DB844F",
+    "callProbeJarSha256": "451BFDFB7409433C5CD144653F85EB1715FC8483BFA18D7B029EE2D63EA3E7C5",
+    "callProbeSourceSha256": "A782B20E85AAC7C8CE0961823618E5BAE49D71A5D6CDFAFB9AC33C9E048343C9"
+  }
+}

@@ -1,0 +1,15 @@
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+*.db
+*.db-*
+*.log
+**/call-probe-classes/
+**/call-probe-dex/
+**/call-probe-classes.jar
+**/velo-call-audio-probe.jar
+**/oppo-*.txt

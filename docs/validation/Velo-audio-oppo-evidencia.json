@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "device": {
+    "model": "CPH2913",
+    "android": "17",
+    "api": 37,
+    "firmware": "CPH2913_17.0.0.106(EX01)"
+  },
+  "probe": {
+    "executionUid": 2000,
+    "identity": "com.android.shell",
+    "captureAudioOutputGranted": true,
+    "callAudioInterceptionGranted": true,
+    "audioModeAtInspection": 0,
+    "pstnCallAudioInterceptableMethodExists": true,
+    "pstnCallAudioInterceptableQueryResult": true,
+    "uplinkInjectionMethodExists": true,
+    "downlinkExtractionMethodExists": true,
+    "telephonySinkPortId": 13,
+    "telephonySourcePortId": 21,
+    "audioRecordCreated": false,
+    "audioTrackCreated": false,
+    "audioRecorded": false,
+    "audioPlayed": false,
+    "callsInitiated": 0,
+    "callsAnswered": 0,
+    "temporaryPhoneJarRemoved": true,
+    "rawOutput": "Velo-audio-oppo-diagnostico.txt"
+  },
+  "liveCaption": {
+    "package": "com.google.android.as",
+    "version": "C.5.playstore.oemfull.948771517",
+    "enabled": true,
+    "installedLanguagesObserved": ["es-ES", "en-US"],
+    "frenchFranceDownloadOffered": true,
+    "typedCallResponsesSettingEnabled": true,
+    "translationTargetSettingObserved": false,
+    "settingsChanged": false,
+    "modelsDownloaded": false,
+    "liveFrenchCallTested": false
+  },
+  "oppoNativeAssistant": {
+    "package": "com.oplus.aicall",
+    "version": "17.7.12",
+    "internalSettingsLaunch": "Denied: com.oplus.permission.safe.PHONE required",
+    "featureAvailabilityConfirmed": false,
+    "offlineProcessingConfirmed": false
+  },
+  "assessment": {
+    "normalVeloApkHasRequiredAudioPrivileges": false,
+    "localShellHelperIsResearchCandidate": true,
+    "shizukuTested": false,
+    "realCallAudioExtractionValidated": false,
+    "realCallAudioInjectionValidated": false,
+    "preRingConversationalScreeningValidated": false,
+    "offlineFrenchToSpanishCallTranslationValidated": false,
+    "productionAppModified": false,
+    "veloVersionUnchanged": "0.4.2",
+    "furtherDeviceAccessPausedAtUserRequest": true,
+    "conclusion": "Capability declaration is promising, but real call audio and call-control behavior remain unverified."
+  }
+}

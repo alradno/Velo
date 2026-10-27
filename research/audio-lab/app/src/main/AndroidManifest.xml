@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries><intent><action android:name="android.speech.RecognitionService" /></intent></queries>
+    <application android:label="Velo Audio Lab" android:allowBackup="false" android:supportsRtl="true" />
+    <instrumentation android:name=".OfflineProbeInstrumentation" android:targetPackage="com.alberto.velo.audiolab" android:label="Velo local audio research" />
+</manifest>
